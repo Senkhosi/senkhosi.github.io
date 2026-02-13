@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siphiwosenkhosi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Siphiwosenkhosi Dlamini</h1>
+    <p id="typing">Computer Science Student | Python Developer | Django Enthusiast</p>
+    <a href="cv.pdf" download class="cv-btn">Download CV</a>
+
+</header>
+
+<nav <button id="themeToggle">🌙</button>>
+    
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="game">
+    <h2>Interactive Memory Game</h2>
+    <p>Match all the symbols to complete the challenge.</p>
+
+    <div class="game-stats">
+        <span>⏱ Time: <span id="time">0</span>s</span>
+        <span>🎯 Moves: <span id="moves">0</span></span>
+    </div>
+
+    <div class="game-board" id="gameBoard"></div>
+
+    <div id="result" class="result"></div>
+
+    <button onclick="startGame()" class="btn">Restart Game</button>
+</section>
+
+<script src="game.js"></script>
+
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <!-- NATICC PROJECT -->
+    <div class="project">
+        <h3>NATICC NGO Website Redesign</h3>
+
+        <p>
+            I redesigned and improved the functionality of the official website for the
+            National AIDS Treatment Information and Counselling Centre (NATICC).
+            The project focused on improving usability, modernizing the interface,
+            and making information more accessible to the public.
+        </p>
+
+        <p>
+            I reorganized website content, improved navigation structure, and enhanced
+            the user experience so visitors can easily access important health
+            information and organizational services.
+        </p>
+
+        <p>
+            <strong>Live Site:</strong>
+            <a href="https://www.naticc.org.sz" target="_blank">
+                www.naticc.org.sz
+            </a>
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>NSM Law Firm Website</h3>
+        <p>
+            Designed and developed the official website for NSM Law Firm</a>.
+            The website provides a professional online presence for the firm,
+            presenting legal services, contact information, and client resources
+            through a clean layout, structured pages, and responsive design.
+        </p>
+
+                <p>
+            <strong>Live Site:</strong>
+            <a href="https://www.nsmlawrfirmsz.com" target="_blank">
+                www.nsmlawfrimsz.com
+            </a>
+        </p>
+    </div>
+
+
+    <!-- SCHOOL PORTAL PROJECT -->
+    <div class="project">
+        <h3>School Management System</h3>
+
+        <p>
+            Developed a student management portal using Python and Django with SQLite
+            database integration. The system allows administrators to manage student
+            records and upload learning materials while students can log in and access
+            academic resources online.
+        </p>
+    </div>
+
+</section>
+
+
+<section id="skills">
+    <section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skill">
+        <span>Python</span>
+        <div class="bar"><div class="progress python"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>HTML & CSS</span>
+        <div class="bar"><div class="progress html"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>Django</span>
+        <div class="bar"><div class="progress django"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>SQLite / Databases</span>
+        <div class="bar"><div class="progress db"></div></div>
+    </div>
+
+</section>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>Django</li>
+        <li>SQL / Oracle</li>
+        <li>HTML & CSS</li>
+        <li>Linux</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: dlaminisenko@gmail.com</p>
+    <p>GitHub: github.com/Senkhosi</p>
+</section>
+
+<footer>
+    <p>© 2026 Siphiwosenkhosi Dlamini</p>
+</footer>
+
+</body>
+</html>
