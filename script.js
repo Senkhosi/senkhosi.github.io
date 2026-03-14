@@ -20,7 +20,7 @@ window.onload = () => {
         toggle.textContent = "☀️";
     }
 };
-const text = "Computer Science Student | Python Developer | Web Developer";
+const text = "BCA Student | Python Developer | Web Developer | Aspiring DevOps Engineer";
 let i = 0;
 
 function typeEffect(){
